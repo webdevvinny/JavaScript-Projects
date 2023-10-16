@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ARRAYS</title>
+      <style>
+            #button{
+                  padding: 5px;
+                  font-size: large;
+                  font-weight: bold;
+                  background-color: rgb(255, 0, 0);
+                  border-radius: 10px;
+                  color: rgb(208, 255, 0);
+            }
+
+            #arrayData{
+                  padding: 5px;
+                  font-size: large;
+                  font-weight: bold;
+                  background-color: green;
+                  border-radius: 10px;
+                  color: whitesmoke;
+            }
+
+            #viewList{
+                  padding: 5px;
+                  font-size: large;
+                  font-weight: bold;
+                  background-color: rgb(255, 0, 255);
+                  border-radius: 10px;
+                  color: whitesmoke;
+            }
+
+            #itemsDetails{
+                  display: inline-block;
+                  width: 200px;
+                  /* align-items: stretch; */
+                  padding: 5px;
+                  text-align: center;
+                  font-size: large;
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-weight: bold;
+                  height: 30px;
+                  color: rgb(13, 214, 154);
+                  border: 2px solid blue;
+            }
+      </style>
+</head>
+<body>
+
+<h1>Lesson Arrays</h1>
+<button type="button" id="details" style="cursor:pointer; font-size: 1em;font-weight: bold;color: red; padding: 1em; border-radius: 2em; background-color: aqua;">Click To Type Your Details Here:</button>
+<br><br>
+<input type="text" name="naes" id="named" placeholder="some stupid staff">
+<input type="date" name="setDate" id="setDate">
+<button type="button" id="arrayData" onclick=" arrayFunc()">Add List</button>
+<button type="button" id="viewList" onclick=" renderToDoList()">View List</button>
+<!-- <button type="button" id="clearList" > Clear List</button> -->
+<div id="arrayStaff"></div>
+
+
+      <script src="arrays.js">
+            
+
+
+      </script>
+</body>
+</html>
